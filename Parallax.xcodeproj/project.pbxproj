@@ -11,6 +11,7 @@
 		91E970052B31C96C00E8432A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E970042B31C96C00E8432A /* ContentView.swift */; };
 		91E970072B31C96E00E8432A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E970062B31C96E00E8432A /* Assets.xcassets */; };
 		91E9700A2B31C96E00E8432A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E970092B31C96E00E8432A /* Preview Assets.xcassets */; };
+		91E970112B31CA9000E8432A /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E970102B31CA9000E8432A /* TripCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		91E970042B31C96C00E8432A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91E970062B31C96E00E8432A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E970092B31C96E00E8432A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91E970102B31CA9000E8432A /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		91E970122B31D58A00E8432A /* Parallax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parallax.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		91E970012B31C96C00E8432A /* Parallax */ = {
 			isa = PBXGroup;
 			children = (
+				91E970122B31D58A00E8432A /* Parallax.entitlements */,
 				91E970022B31C96C00E8432A /* ParallaxApp.swift */,
 				91E970042B31C96C00E8432A /* ContentView.swift */,
+				91E970102B31CA9000E8432A /* TripCard.swift */,
 				91E970062B31C96E00E8432A /* Assets.xcassets */,
 				91E970082B31C96E00E8432A /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E970112B31CA9000E8432A /* TripCard.swift in Sources */,
 				91E970052B31C96C00E8432A /* ContentView.swift in Sources */,
 				91E970032B31C96C00E8432A /* ParallaxApp.swift in Sources */,
 			);
@@ -269,10 +275,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Parallax/Parallax.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parallax/Preview Content\"";
-				DEVELOPMENT_TEAM = 4TKND5HSKG;
+				DEVELOPMENT_TEAM = ZL9DDXABC9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -298,10 +305,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Parallax/Parallax.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parallax/Preview Content\"";
-				DEVELOPMENT_TEAM = 4TKND5HSKG;
+				DEVELOPMENT_TEAM = ZL9DDXABC9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
